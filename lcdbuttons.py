@@ -9,7 +9,7 @@ UP = 3
 LEFT = 4
 '''
 
-class lcdbut:
+class lcdbuttons:
 	''' I should put something here '''
 	def __init__(self, display):
 		''' Initialize!!! '''

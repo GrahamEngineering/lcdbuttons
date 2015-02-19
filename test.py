@@ -1,5 +1,5 @@
 import Adafruit_CharLCD as LCD
-import lcdbut
+import lcdbuttons
 #import Queue
 import threading
 import time
@@ -56,7 +56,7 @@ lcd.set_backlight(False)
 lcd.set_backlight(True)
 updateColor()
 
-x = lcdbut.lcdbut(lcd)
+x = lcdbuttons.lcdbuttons(lcd)
 
 t = threading.Thread(target=x.startup)
 
